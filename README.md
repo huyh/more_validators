@@ -10,7 +10,11 @@ gem "more_validators"
 
 ```ruby
 class User < ActiveRecord::Base
-  validates :email. :email => true
+  validates :email, :email => true
+end
+
+class User < ActiveRecord::Base
+  validates :json_doc, :json => true
 end
 ```
 
